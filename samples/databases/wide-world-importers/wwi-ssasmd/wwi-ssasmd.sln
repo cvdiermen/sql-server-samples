@@ -3,21 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WideWorldImportersMultidimensionalCube", "wwi-ssasmd\WideWorldImportersMultidimensionalCube.dwproj", "{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WideWorldImportersMultidimensional", "wwi-ssasmd\WideWorldImportersMultidimensional.dwproj", "{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}"
 EndProject
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WWI", "WWI\WWI.dwproj", "{620C9F78-EE06-488F-B7E5-DE96E425FD82}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WWI_MD", "WWI\WWI_MD.dwproj", "{620C9F78-EE06-488F-B7E5-DE96E425FD82}"
+EndProject
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "WideWorldImportersTabularModel", "..\..\..\..\..\..\TabularProject2\TabularProject2\WideWorldImportersTabularModel.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Development|x86 = Development|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|Default.ActiveCfg = Development
-		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|Default.Build.0 = Development
-		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|Default.Deploy.0 = Development
-		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|Default.ActiveCfg = Development
-		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|Default.Build.0 = Development
-		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|Default.Deploy.0 = Development
+		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|x86.ActiveCfg = Development
+		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|x86.Build.0 = Development
+		{9A7C1971-1B25-4F3A-B4E3-844B34A1238A}.Development|x86.Deploy.0 = Development
+		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|x86.ActiveCfg = Development
+		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|x86.Build.0 = Development
+		{620C9F78-EE06-488F-B7E5-DE96E425FD82}.Development|x86.Deploy.0 = Development
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.ActiveCfg = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Build.0 = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Deploy.0 = Development|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
